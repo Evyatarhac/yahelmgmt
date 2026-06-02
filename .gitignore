@@ -29,3 +29,6 @@ dist-ssr
 
 .env
 .vite
+
+# Base44 CLI local app link (machine-specific; do not commit)
+base44/.app.jsonc
