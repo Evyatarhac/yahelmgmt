@@ -10,6 +10,13 @@
 
 export const talents = [
   {
+    name: "Liel Eli",
+    role: "Lifestyle · Host · Commercial",
+    image: "/talents/liel-eli.jpg",
+    instagram: "",
+    tiktok: "",
+  },
+  {
     name: "Mishel D",
     role: "Lifestyle · Fashion · Beauty",
     image: "/talents/mishel-d.jpg",
@@ -27,13 +34,6 @@ export const talents = [
     name: "Angel Baranes",
     role: "Lifestyle · Fashion · Fitness",
     image: "/talents/angel-baranes.jpg",
-    instagram: "",
-    tiktok: "",
-  },
-  {
-    name: "Liel Eli",
-    role: "Lifestyle · Host · Commercial",
-    image: "/talents/liel-eli.jpg",
     instagram: "",
     tiktok: "",
   },

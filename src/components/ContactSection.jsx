@@ -50,18 +50,11 @@ export default function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.8, ease }}
+          className="flex items-center"
         >
-          <span className="mb-4 inline-block font-latin text-xs font-medium uppercase tracking-[0.4em] text-brand-cream/70">
+          <span className="font-latin text-[clamp(1.5rem,5vw,3rem)] font-medium uppercase tracking-[0.4em] text-brand-cream/90">
             Let&apos;s Talk
           </span>
-          <h2 className="font-display text-[clamp(2.8rem,9vw,6.5rem)] leading-[0.92] text-brand-cream">
-            בואו <br />
-            ניצור <span className="text-brand-ink">יחד.</span>
-          </h2>
-          <p className="mt-8 max-w-md text-lg leading-relaxed text-brand-cream/80">
-            מותג שמחפש את היוצר הנכון? יוצר/ת תוכן שרוצה ייצוג? נשמח לשמוע —
-            דברו ישירות עם {contactInfo.name}.
-          </p>
         </motion.div>
 
         {/* Right — details */}
