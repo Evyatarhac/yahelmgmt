@@ -22,7 +22,8 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-brand-ink/45">
-          © {new Date().getFullYear()} יהל כהן. כל הזכויות שמורות.
+          © {new Date().getFullYear()} יהל כהן. כל הזכויות שמורות.{" "}
+          <span className="text-brand-ink/35">Built by @AriyaStudio</span>
         </p>
       </div>
     </footer>
